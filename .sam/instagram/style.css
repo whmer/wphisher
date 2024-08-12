@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:root{
+    --background: #f7f7f7;
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --color-but:#0099e6;
+}
+
+.from{
+    text-align: center;
+    padding: 10px;
+}
+
+body{
+    background: #f7f7f7;
+    font-family: var(--font);
+}
+
+form{
+    text-align: center;
+    border: 1px solid #828282;
+    margin-top: 20px;
+    width: 450px;
+    margin: 0 auto 10px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+@media(max-width:999px){
+    form{
+        width: 90%;
+    }
+}
+
+input{
+    padding: 10px;
+    background: #f7f7f7;
+    width: 90%;
+    font-size: 15px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid #828282;
+    font-family: var(--font);
+}
+
+.nameprofiles{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.seg{
+    margin: 10px;
+    font-size: 11px;
+}
+
+.btn{
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    background: #0091ff;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: var(--font);
+}
+
+.pingu{
+    font-weight: 600;
+    font-family: var(--font);
+    font-size: 12px;
+}
+
+.accountUrl{
+    width: 80%;
+    text-align: left;
+    justify-content: center;
+    margin: 0 auto 10px;
+}
+
+
+.url{
+    font-weight: 600;
+    font-size: 12px;
+    font-family: var(--font);
+}
+
+a{
+    color: #0091ff;
+    text-decoration: none;
+}
+
+.anow{
+    text-align: center;
+    width: 100%;
+    border:none;
+    margin-top: 20px;
+    background: #ffffff;
+}
+
+.anow  p{
+    text-align: left;
+    margin-left: 25px;
+}
+
+.files{
+    display: flex;
+    width: 90%;
+    margin: 0 auto 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: #dbdbdb;
+    color: #000000;
+}
+
+.webp{
+    border-radius: 100%;
+}
+
+.namesseg{
+    display: flex;
+}
+
+.fullname{
+    margin-left: 10px;
+    font-size: 17px;
+}
