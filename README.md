@@ -3,7 +3,11 @@
 ### Hello! ( *whmerphisher* ) A phisher program created by the Whmer and sasame society, this program has some features. Phisher from [WhatsApp, Instagram, Facebook, Tik Tok, Location]
 
 <center>
+
+<p style="text-align: center;">
 <img src="https://telegra.ph/file/c0a7b24585072577a9ca6.gif" width="220" height="220" style="">
+</p>
+
 </center>
 <br>
 
@@ -13,17 +17,13 @@
   - ### Installation program
 
 ```
-git clone https://github.com/whmer/whmer-phisher.git
+git clone https://github.com/whmer/wphisher.git
 
-cd whmer-phisher
+cd wphisher
 
 chmod +x install.sh
 
 ```
-
-<center>
-<img src="https://telegra.ph/file/074e20ad7c69ba3fb2e26.png" width="90%">
-</center>
 
 ## index.js - source code | it returns data from a given IP
 
