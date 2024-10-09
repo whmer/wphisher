@@ -9,6 +9,8 @@ pkg install nodejs -y
 pkg install nodejs-lts -y
 pkg install git -y
 pkg install ffmpeg -y
+pkg install rust
+pkg install viu
 npm install -g cfonts
 
 echo "[-] Concluding"
